@@ -2,6 +2,32 @@
     <div class="col-12 d-flex justify-content-center">
         <div class="col-4 todo-block">
             <h4 class="text-center mb-3 todo-header">Todo List</h4>
+            <div class="col-12 d-flex align-items-center justify-content-between">
+                <input type="text" class="col-8 todo-input" placeholder="Enter text..." name="text">
+                <button class="col-3 btn btn-primary">Add</button>
+            </div>
+
+            <div class="todo-list mt-3">
+                <h5>Todo List</h5>
+                <div class="col-12 d-flex todo-single align-center">
+                    <input type="checkbox" class="col-1 todo-checkbox">
+                    <p class="col-9">Todo Item</p>
+                    <button class="btn btn-outline text-danger col-1 del-btn">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </div>
+
+                <div class="todo-list mt-3">
+                    <h5>Finished List</h5>
+                    <div class="col-12 d-flex todo-single align-center">
+                        <input type="checkbox" class="col-1 todo-checkbox">
+                        <p class="col-9">Todo Item</p>
+                        <button class="btn btn-outline text-danger col-1 del-btn">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
