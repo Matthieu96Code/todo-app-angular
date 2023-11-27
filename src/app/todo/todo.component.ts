@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './todo.component.css'
 })
 export class TodoComponent {
-
+  todoValue: string = '';
 }
